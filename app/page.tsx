@@ -132,26 +132,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 px-4 bg-dark-900/50">
-        <div className="max-w-6xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-            <div className="space-y-2">
-              <div className="text-4xl font-bold gradient-text">Somnia</div>
-              <div className="text-gray-400">Network</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold gradient-text">3435</div>
-              <div className="text-gray-400">Chain ID</div>
-            </div>
-            <div className="space-y-2">
-              <div className="text-4xl font-bold gradient-text">SOMI</div>
-              <div className="text-gray-400">Native Token</div>
-            </div>
-          </div>
-        </div>
-      </section>
-
+  
       {/* Footer */}
       <footer className="py-12 px-4 border-t border-primary-500/20">
         <div className="max-w-6xl mx-auto text-center">
