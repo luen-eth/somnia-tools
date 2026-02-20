@@ -259,12 +259,12 @@ export function MultiSender() {
               <p className="text-gray-400 text-sm mb-2">Transaction Hash:</p>
               <p className="text-primary-400 font-mono text-sm break-all mb-3">{hash}</p>
               <a
-                href={`https://explorer.metatech.network/tx/${hash}`}
+                href={`https://bscscan.com/tx/${hash}`}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center space-x-2 text-primary-400 hover:text-primary-300 transition-colors"
               >
-                <span>View on Somnia Explorer</span>
+                <span>View on BscScan</span>
                 <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
                 </svg>
@@ -557,7 +557,7 @@ export function MultiSender() {
                   <span className="text-primary-400 font-medium">Transaction Fee</span>
                 </div>
                 <p className="text-gray-300 text-sm mt-1">
-                  {formatEther(feeData)} SOMI fee will be paid for this transaction.
+                  {formatEther(feeData)} BNB fee will be paid for this transaction.
                 </p>
               </div>
             )}

@@ -21,7 +21,7 @@ export default function HomePage() {
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-[slideInUp_1s_ease-out_0.3s_both]">
               Professional tools to simplify your token creation and bulk transfer 
-              operations on Somnia Network
+              operations on BNB Smart Chain (BSC)
             </p>
           </div>
           
@@ -65,9 +65,9 @@ export default function HomePage() {
                   <CardTitle>Token Factory</CardTitle>
                 </div>
                 <CardDescription>
-                  Create professional ERC-20 tokens on Somnia Network
+                  Create professional ERC-20 tokens on BNB Smart Chain (BSC)
                   <br />
-                  <span className="text-primary-400 text-sm font-medium">Fee: 5 SOMI per token</span>
+                  <span className="text-primary-400 text-sm font-medium">Fee: contract fee in BNB</span>
                 </CardDescription>
               </CardHeader>
               <CardContent>
@@ -143,7 +143,7 @@ export default function HomePage() {
             <span className="gradient-text text-xl font-bold">Somnia Tools</span>
           </div>
           <p className="text-gray-400 text-sm">
-            Professional blockchain tools developed for Somnia Network
+            Professional blockchain tools developed for BNB Smart Chain (BSC)
           </p>
         </div>
       </footer>

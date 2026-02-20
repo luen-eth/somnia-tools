@@ -6,8 +6,8 @@ import { Providers } from './providers';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Somnia Tools - Token Factory & Multi Sender',
-  description: 'Token creation and bulk transfer tools for Somnia Network',
+  title: 'Somnia Tools - BSC Token Factory & Multi Sender',
+  description: 'Token creation and bulk transfer tools for BNB Smart Chain (BSC)',
 };
 
 export default function RootLayout({

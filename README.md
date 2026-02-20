@@ -1,6 +1,6 @@
 # Somnia Tools
 
-🌟 **Open Source** professional blockchain tools developed for Somnia Network. A modern web application that simplifies your token creation and bulk transfer operations.
+🌟 **Open Source** professional blockchain tools developed for BNB Smart Chain (BSC). A modern web application that simplifies your token creation and bulk transfer operations.
 
 > **Open Source Project**: This is a completely open source project. You can examine the source code, contribute, and use it freely under the MIT license.
 
@@ -27,25 +27,25 @@
 
 ## 🌐 Network Information
 
-- **Network**: Somnia Network
-- **Chain ID**: 3435
-- **RPC URL**: https://rpc.metatech.network
-- **Native Token**: SOMI
+- **Network**: BNB Smart Chain (BSC)
+- **Chain ID**: 56
+- **RPC URL**: https://bsc-dataseed.binance.org
+- **Native Token**: BNB
 
 ## 📋 Smart Contracts
 
 ### Token Factory Contract
-- **Address**: `0xCE0d15B7c0a3900EBe74DFcBc0bC4E1AC67134e0`
+- **Address**: `0xe2e30CefE5685dc632136A748F271D863A783459`
 - **Features**:
   - Creates Standard ERC-20 tokens
   - Creates Ownable ERC-20 tokens (with owner privileges)
   - Creates Mintable ERC-20 tokens (owner can mint new tokens)
-  - Token creation fee: **5 SOMI** per token
+  - Token creation fee: **Contract-defined (BNB)**
   - Tracks all tokens created by each user
   - Secure deployment using OpenZeppelin standards
 
 ### Multi Sender Contract
-- **Address**: `0x2d509C18eFeD4a4643C80FBF350BA512Af46ee0C`
+- **Address**: `0xbeCE7ce8F9D5e79eC3e59694758326B0FE5d5523`
 - **Features**:
   - Bulk token transfers in a single transaction
   - Two modes: Same amount to all recipients / Different amounts

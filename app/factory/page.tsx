@@ -15,7 +15,7 @@ export default function FactoryPage() {
               <span className="gradient-text glow-effect">Token Factory</span>
             </h1>
             <p className="text-gray-400 text-lg max-w-2xl mx-auto animate-[slideInUp_1s_ease-out_0.3s_both]">
-              Create professional ERC-20 tokens on Somnia Network. 
+              Create professional ERC-20 tokens on BNB Smart Chain (BSC). 
               Choose from different token types and bring your projects to life.
             </p>
           </div>
