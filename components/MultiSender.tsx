@@ -15,6 +15,11 @@ interface Recipient {
   amount: string;
 }
 
+const formatFeeDisplay = (fee: bigint) => {
+  if (fee === 1n) return '1 wei';
+  return `${fee.toString()} wei (${formatEther(fee)} BNB)`;
+};
+
 
 export function MultiSender() {
   const { address } = useAccount();
@@ -557,7 +562,7 @@ export function MultiSender() {
                   <span className="text-primary-400 font-medium">Transaction Fee</span>
                 </div>
                 <p className="text-gray-300 text-sm mt-1">
-                  {formatEther(feeData)} BNB fee will be paid for this transaction.
+                  {formatFeeDisplay(feeData as bigint)} fee will be paid for this transaction.
                 </p>
               </div>
             )}
